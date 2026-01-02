@@ -1,0 +1,97 @@
+/* Navbar Container - Right Vertical Dock */
+.navbar_section {
+  position: fixed;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  width: auto;
+}
+
+.navbar {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: var(--glass-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+  border-radius: 999px;
+  /* Pill shape */
+  padding: 1.5rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  /* Vertical layout */
+  gap: 1.5rem;
+  align-items: center;
+}
+
+/* Icon Links */
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  color: var(--text-secondary);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  border: 1px solid transparent;
+}
+
+.icon svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  transition: transform 0.3s ease;
+}
+
+.servicenow-logo {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+/* Active State */
+.icon.active {
+  color: var(--accent-primary);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Hover States */
+.icon:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.1);
+  box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.icon:hover svg,
+.icon:hover .servicenow-logo {
+  transform: scale(1.1);
+}
+
+/* Tooltip Implementation (Left side now) */
+
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar_section {
+    right: 50%;
+    top: auto;
+    bottom: 1.5rem;
+    transform: translateX(50%);
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.8rem;
+    border-radius: 20px;
+  }
+
+
+}
