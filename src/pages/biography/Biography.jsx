@@ -1,10 +1,14 @@
 import React from 'react'
 import './biography.css'
 
+import photo12 from '../../images/images_biography/FOTO-12.jpg';
+import photo17 from '../../images/images_biography/FOTO-17.jpg';
+import photo20 from '../../images/images_biography/FOTO-20.jpg';
+
 const images = [
-  { id: 1, src: 'src/images/images_biography/FOTO-12.jpg', alt: 'Collaborating at UPC NanoSat Lab' },
-  { id: 2, src: 'src/images/images_biography/FOTO-17.jpg', alt: 'Working on ServiceNow SPM' },
-  { id: 3, src: 'src/images/images_biography/FOTO-20.jpg', alt: 'Professional Headshot' },
+  { id: 1, src: photo12, alt: 'Collaborating at UPC NanoSat Lab' },
+  { id: 2, src: photo17, alt: 'Working on ServiceNow SPM' },
+  { id: 3, src: photo20, alt: 'Professional Headshot' },
 ];
 
 export default function Biography() {
@@ -16,7 +20,7 @@ export default function Biography() {
           <div className='divider'></div>
 
           <div className='biography_texto'>
-            <p className='intro'>👋 Hi! I'm Rubén</p>
+            <p className='intro'>👋 Hi! I am Rubén</p>
 
             <p>
               I am a Telecommunications Engineering graduate from UPC with a passion for technology, process automation, and developing efficient solutions. I am driven by continuous learning and applying knowledge to create tangible real-world impact.

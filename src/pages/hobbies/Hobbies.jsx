@@ -104,13 +104,21 @@ import pepe2 from '../../images/images_pets/pepe_2.jpeg';
 import mius from '../../images/images_pets/mius.jpeg';
 import kira4 from '../../images/images_pets/kira_4.jpeg';
 
+// Triathlon Images
+import banyoles from '../../images/banyoles.jpeg';
+import fontromeu from '../../images/fontromeu.jpeg';
+import castelldefels from '../../images/castelldefels.jpeg';
+import peniscolaRun from '../../images/peñiscola_run.jpeg';
+import peniscola from '../../images/peñiscola.jpeg';
+import banyoles2 from '../../images/banyoles_2.jpeg';
+
 const triathlonImages = [
-  { url: 'src/images/banyoles.jpeg', caption: 'The challenging open water swim start.' },
-  { url: 'src/images/fontromeu.jpeg', caption: 'Last meters of Font Romeu Olympic Triathlon' },
-  { url: 'src/images/castelldefels.jpeg', caption: 'Focused on speed during the cycling segment.' },
-  { url: 'src/images/peñiscola_run.jpeg', caption: 'Crossing the finish line after a long race.' },
-  { url: 'src/images/peñiscola.jpeg', caption: 'Crossing the finish line after a long race.' },
-  { url: 'src/images/banyoles_2.jpeg', caption: 'Crossing the finish line of my first Olympic Triathlon' },
+  { url: banyoles, caption: 'The challenging open water swim start.' },
+  { url: fontromeu, caption: 'Last meters of Font Romeu Olympic Triathlon' },
+  { url: castelldefels, caption: 'Focused on speed during the cycling segment.' },
+  { url: peniscolaRun, caption: 'Crossing the finish line after a long race.' },
+  { url: peniscola, caption: 'Crossing the finish line after a long race.' },
+  { url: banyoles2, caption: 'Crossing the finish line of my first Olympic Triathlon' },
 ];
 
 const petsImages = [
@@ -132,7 +140,7 @@ const interestsData = [
   { name: "Investing & Strategy", icon: TrendingUp, description: "Analytical mindset applied to market research...", color: "#10b981", images: null },
   { name: "Gourmet Cooking", icon: Utensils, description: "A passion for complex recipes...", color: "#f59e0b" },
   { name: "Specialty Coffee", icon: Coffee, description: "A study in precision and quality control...", color: "#0ea5e9", images: null },
-  { name: "Pets", icon: Cat, description: "Example text for 12 caracters", color: "#dfb258ff", images: petsImages },
+  { name: "Pets", icon: Cat, description: "My faithful companions: Miu, Kira, Mishina & Pepe. They bring joy to my every day.", color: "#dfb258ff", images: petsImages },
 ];
 
 const Hobbies = () => {
