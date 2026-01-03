@@ -94,28 +94,36 @@ const Modal = ({ isOpen, onClose, title, images }) => {
 // Data
 // Pet Images
 import kira from '../../images/images_pets/kira.jpeg';
+import kira2 from '../../images/images_pets/kira_2.jpeg';
 import mishina from '../../images/images_pets/mishina.jpeg';
-import mishina2 from '../../images/images_pets/mishina_2.jpeg';
+import mishina3 from '../../images/images_pets/mishina_3.jpeg';
 import miu from '../../images/images_pets/miu.jpeg';
 import miu2 from '../../images/images_pets/miu_2.jpeg';
 import pepe from '../../images/images_pets/pepe.jpeg';
 import pepe2 from '../../images/images_pets/pepe_2.jpeg';
+import mius from '../../images/images_pets/mius.jpeg';
+import kira4 from '../../images/images_pets/kira_4.jpeg';
 
 const triathlonImages = [
   { url: 'src/images/banyoles.jpeg', caption: 'The challenging open water swim start.' },
+  { url: 'src/images/fontromeu.jpeg', caption: 'Last meters of Font Romeu Olympic Triathlon' },
   { url: 'src/images/castelldefels.jpeg', caption: 'Focused on speed during the cycling segment.' },
   { url: 'src/images/peñiscola_run.jpeg', caption: 'Crossing the finish line after a long race.' },
   { url: 'src/images/peñiscola.jpeg', caption: 'Crossing the finish line after a long race.' },
+  { url: 'src/images/banyoles_2.jpeg', caption: 'Crossing the finish line of my first Olympic Triathlon' },
 ];
 
 const petsImages = [
   { url: miu, caption: 'Miu' },
   { url: kira, caption: 'Kira' },
+  { url: mius, caption: 'Mius' },
   { url: mishina, caption: 'Mishina' },
   { url: pepe, caption: 'Pepe' },
   { url: miu2, caption: 'Miu' },
-  { url: mishina2, caption: 'Mishina' },
+  { url: kira2, caption: 'Kira' },
   { url: pepe2, caption: 'Pepe' },
+  { url: mishina3, caption: 'Mishina' },
+  { url: kira4, caption: 'Kira' },
 ];
 
 const interestsData = [
